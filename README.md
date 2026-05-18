@@ -1,3 +1,20 @@
+# Image Classification: Castle, Tree House & Lighthouse
+
+**A deep learning group project for the automatic detection and classification of building types.**
+
+### Goal and Task
+
+The goal of this group project was to develop a Convolutional Neural Network (CNN) that can reliably classify images into three categories: **castles, tree houses, and lighthouses**. 
+
+The biggest challenge was the highly unbalanced dataset from *Open Images V7*. To prevent bias, we balanced the data using data augmentation and then trained and compared various model architectures based on **VGG19**. We evaluated models trained "from scratch", with pretraining (transfer learning), and with our own experimental architecture featuring a custom "Naive Inception Layer".
+
+
+###  About this Repository
+
+In this repository, you will find the complete **Jupyter Notebook** for our group project. 
+
+You can read through the entire workflow right below—from downloading and preparing the data to model training and evaluation using *Grad-CAM heatmaps*. Alternatively, you can download the `.ipynb` file to run the code yourself!
+
 ```python
 !pip install fiftyone scikit-learn matplotlib seaborn
 ```
